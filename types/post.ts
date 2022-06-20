@@ -4,4 +4,6 @@ export interface IPOST {
     thumbnail: string;
     title: string;
     description: string;
+    prerequisites: string[];
+    stacks: string[];
 }
